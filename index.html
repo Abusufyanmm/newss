@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tamilschoolsonline</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Demo project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/sermons.css">
+<link rel="stylesheet" type="text/css" href="styles/sermons_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/blog.css">
+<link rel="stylesheet" type="text/css" href="styles/blog_responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header">
+		
+		<!-- Top Bar -->
+
+		<div class="top_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col top_bar_content d-flex flex-row align-items-center justify-content-start">
+						<div class="event_timer">
+							<span>Next Big Event:</span>
+							<ul class="timer">
+								<li class="d-inline-flex">
+									<div id="day" class="timer_num">03</div>
+									<div class="timer_unit">Days</div>
+								</li>
+								<li class="d-inline-flex">
+									<div id="hour" class="timer_num">15</div>
+									<div class="timer_unit">Hours</div>
+								</li>
+								<li class="d-inline-flex">
+									<div id="minute" class="timer_num">45</div>
+									<div class="timer_unit">Minutes</div>
+								</li>
+								<li class="d-inline-flex">
+									<div id="second" class="timer_num">23</div>
+									<div class="timer_unit">Seconds</div>
+								</li>
+							</ul>
+						</div>
+						<div class="donations_button ml-auto">
+							<a href="#">Subscribe</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header Content -->
+
+		<div class="header_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+
+							<!-- Logo -->
+							<div class="logo_container">
+								<div class="logo">
+									<a href="index.html">
+										<span>Tamil<b>Schools</b>Online</span>
+										
+									</a>
+								</div>
+							</div>
+
+							<!-- Navigation and Search -->
+							<div class="header_nav_container ml-auto">
+								<nav class="main_nav">
+									<ul>
+										<li><a href="index.html">Home</a></li>
+										<li><a href="#">News</a></li>
+										<li class="#"><a href="#">About Us</a></li>
+										<li><a href="#">Gallery</a></li>
+										<li><a href="#">Contact Us</a></li>
+									</ul>
+								</nav>
+								<div class="search">
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="13px" height="14px">
+										<path class="search_path" d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" fill="#353535"/>
+									</svg>
+								</div>
+							</div>
+
+							<!-- Hamburger -->
+
+							<div class="hamburger ml-auto">
+								<i class="fa fa-bars" aria-hidden="true"></i>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="header_search_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="header_search_content d-flex flex-row align-items-center justify-content-end">
+								<form action="#" class="header_search_form">
+									<input type="search" class="search_input" placeholder="Search" required="required">
+									<button class="header_search_button d-flex flex-column align-items-center justify-content-center">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_2" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="20px" height="20px">
+											<path class="search_path" d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" fill="#353535"/>
+										</svg>
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu d-flex flex-column align-items-center justify-content-center">
+		<div class="menu_content">
+			<div class="cross_1 d-flex flex-column align-items-center justify-content-center"></div>
+			<form action="#" class="menu_search_form">
+				<input type="search" class="menu_search_input" placeholder="Search" required="required">
+				<button class="menu_search_button d-flex flex-column align-items-center justify-content-center">
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_3" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="20px" height="20px">
+					<path class="search_path" d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" fill="#353535"/>
+				</svg>
+			</button>
+			</form>
+			<nav class="menu_nav">
+				<ul>
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_background" data-parallax="scroll" data-image-src="images/blog.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="home_container">
+						<div class="home_content d-flex flex-row align-items-center justify-content-start">
+							<div class="home_title">Advertise Here</div>
+							<div class="home_breadcrumbs ml-auto">
+								<ul class="breadcrumbs">
+									<li><a href="index.html">Home</a></li>
+									<li>News</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><br/>
+   
+
+    
+
+    
+    <div class="causes">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container">
+						
+						<div class="section_title"><h2><b>Trending News</b></h2></div>
+						
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+   <iv class="blog"d>
+		<div class="container">
+			<div class="row">
+
+				<!-- Blog Content -->
+				<div class="col-lg-9  col-sm-6">
+					<div class="blog_content">
+						<div class="row">
+						
+								<div class="container">
+			
+			<div class="row sermon_row">
+
+				<!-- Sermon Image -->
+				<div class="col-lg-6">
+					<div class="sermon_image"><img src="images/sub.jpg" alt=""></div>
+				</div>
+				
+				<!-- Sermon Content -->
+				<div class="col-lg-6">
+					<div class="sermon_content">
+						<div class="sermon_title"><a href="news.html">Subramaniam said Tamil schools needed to focus on various areas, including reducing the level of dropouts among pupils</a></div>
+					
+						<div class="sermon_text">
+							<p>The rapid development of Tamil schools throughout the country shows the commitment of the government in ensuring that the quality of education.</p>
+							<ul>
+							<li>
+                             Share with:
+							<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li> Date: <a href="#">Monday 11 March, 2018</a></li>
+						</ul>
+						
+						
+					</div>
+						<li class="blog_link"><a href="news.html">Read More</a></li><br>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+    
+    
+		<div class="container">
+			
+			<div class="row">
+				<div class="col">
+					<div class="causes_slider_container">
+
+						<!-- Causes Slider -->
+						<div class="owl-carousel owl-theme causes_slider">
+
+							<!-- Causes Slider Item -->
+							<div class="owl-item text-center causes_item">
+								<div class="causes_item_image"><img src="images/aba3.jpg" alt=""></div>
+								<div class="causes_item_text">
+									<div class="latest_news_title"><a href="news.html">They are primarily attended by Malaysian Indians of Tamil descent.</a></div>
+									<div class="causes_item_title">Monday 11 March, 2018</div>
+									
+								</div>
+							</div>
+
+							<!-- Causes Slider Item -->
+							<div class="owl-item text-center causes_item">
+								<div class="causes_item_image"><img src="images/pet.jpg" alt=""></div>
+								
+								<div class="causes_item_text">
+									<div class="latest_news_title"><a href="news.html">Telekom CEO resigns, Petronas may see departures too.</a></div>
+									<div class="causes_item_title">Monday 11 March, 2018</div>
+									
+								</div>
+							</div>
+
+							<!-- Causes Slider Item -->
+							<div class="owl-item text-center causes_item">
+								<div class="causes_item_image"><img src="images/nega.jpeg" alt=""></div>
+								
+								<div class="causes_item_text">
+									<div class="latest_news_title"><a href="news.html">Zeti: Bank Negara will abide despite governor’s resignation.</a></div>
+									<div class="causes_item_title">Monday 11 March, 2018</div>
+									
+								</div>
+							</div>
+
+							<!-- Causes Slider Item -->
+							<div class="owl-item text-center causes_item">
+								<div class="causes_item_image"><img src="images/cabi.jpeg" alt=""></div>
+								
+								<div class="causes_item_text">
+									<div class="latest_news_title"><a href="news.html">Cabinet meeting: Salient points of decisions reached</a></div>
+									
+									<div class="causes_item_title">Monday 11 March, 2018</div>
+									
+								</div>
+							</div>
+
+						</div>
+				</div>
+			</div>
+		</div>
+			</div>
+			</div><br><br>
+
+
+               <div class="row">
+				<div class="col-lg-6">
+					<div class="sermon_image"><img src="images/kama.jpg" alt=""></div>
+				</div>
+				
+				<!-- Sermon Content -->
+				<div class="col-lg-6">
+					<div class="sermon_content">
+						<div class="sermon_title"><a href="news.html">Deputy Minister, Datuk P.Kamalanathan: 80 Tamil schools need to be rebuilt.</a></div>
+					
+						<div class="sermon_text">
+							<p>The Education Ministry is identifying suitable locations for the rebuilding of 80 Tamil national-type schools (SJKT) nationwide.</p>
+			           <ul>
+			           	<li>
+                             <b>Share with:</b>
+							<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><b>Date:</b> Monday 11 March, 2018</li>
+							<li class="blog_link"><a href="news.html">Read More</a></li>
+						</ul>
+					</div>
+				</div>
+				</div>
+			</div>
+					</div>
+					<br>
+					<br>
+					
+		
+			
+               <div class="row">
+				<div class="col-lg-6">
+					<div class="sermon_image"><img src="images/das.jpg" alt=""></div>
+				</div>
+				
+				<!-- Sermon Content -->
+				<div class="col-lg-6">
+					<div class="sermon_content">
+						<div class="sermon_title"><a href="news.html">Thaipusam or Thaipoosam (Tamil):</a></div>
+					
+						<div class="sermon_text">
+							<p>The word Thaipusam is a combination of the name of the month, Thai, and the name of a star, Pusam. This particular star is at its highest point during the festival.</p>
+			           <ul>
+			           	<li>
+                             <b>Share with:</b>
+							<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><b>Date:</b> Monday 11 March, 2018</li>
+							<li class="blog_link"><a href="news.html">Read More</a></li>
+						</ul>
+					</div>
+				</div>
+		
+					</div>
+				</div><br><br>
+
+				<div class="row">
+				<div class="col-lg-6">
+					<div class="sermon_image"><img src="images/bud.jpeg" alt=""></div>
+				</div>
+				
+				<!-- Sermon Content -->
+				<div class="col-lg-6">
+					<div class="sermon_content">
+						<div class="sermon_title"><a href="news.html">Set up monitoring system to ensure budget well-spent, health minister told.</a></div>
+					
+						<div class="sermon_text">
+							<p> A local think tank has urged the Health Ministry to ensure that its plan to increase healthcare spending is accompanied by a comprehensive monitoring and evaluation system.</p>
+			           <ul>
+			           	<li>
+                             <b>Share with:</b>
+							<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><b>Date:</b> Monday 11 March, 2018</li>
+							<li class="blog_link"><a href="news.html">Read More</a></li>
+						</ul>
+					</div>
+				</div>
+		
+					</div>
+				</div><br><br>
+
+				<div class="row">
+				<div class="col-lg-6">
+					<div class="sermon_image"><img src="images/wan.jpeg" alt=""></div>
+				</div>
+				
+				<!-- Sermon Content -->
+				<div class="col-lg-6">
+					<div class="sermon_content">
+						<div class="sermon_title"><a href="news.html">Wan Azizah should get health portfolio, says Perak MCA </a></div>
+					
+						<div class="sermon_text">
+							<p>Deputy Prime Minister-designate Dr Wan Azizah Wan Ismail would make a fine health minister, said Perak MCA head Dr Mah Hang Soon.</p>
+			           <ul>
+			           	<li>
+                             <b>Share with:</b>
+							<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><b>Date:</b> Monday 11 March, 2018</li>
+							<li class="blog_link"><a href="news.html">Read More</a></li>
+						</ul>
+					</div>
+				</div>
+		
+					</div>
+				</div>
+				</div>
+
+
+				<!-- Blog Sidebar -->
+				<div class="col-lg-3 sidebar_col">
+					<div class="blog_sidebar">
+
+						<!-- Sidebar - Search -->
+						
+						
+						<!-- Sidebar - Latest News -->
+						<div class="sidebar_section">
+							<div class="sidebar_title"><b>Latest News</b></div>
+							<div class="latest_news_container">
+
+								<!-- Latest News -->
+								<div class="latest_news d-flex flex-row align-items-start justify-content-start">
+									<div class="latest_news_image_container">
+										<div class="latest_news_image"><img src="images/tran.jpeg" alt=""></div>
+									</div>
+									<div class="latest_news_content">
+										<div class="latest_news_date">06 March, 2018</div>
+										<div class="latest_news_title"><a href="news.html">Transport Ministry to create Apad</a></div>
+									</div>
+								</div><br/>
+
+								<!-- Latest News -->
+								<div class="latest_news d-flex flex-row align-items-start justify-content-start">
+									<div class="latest_news_image_container">
+										<div class="latest_news_image"><img src="images/imd.jpeg" alt=""></div>
+									</div>
+									<div class="latest_news_content">
+										<div class="latest_news_date">06 March, 2018</div>
+										<div class="latest_news_title"><a href="news.html">SSER - Guan Eng and MACC bound for China</a></div>
+									</div>
+								</div><br/>
+
+								<!-- Latest News -->
+								<div class="latest_news d-flex flex-row align-items-start justify-content-start">
+									<div class="latest_news_image_container">
+										<div class="latest_news_image"><img src="images/pami.jpg" alt=""></div>
+									</div>
+									<div class="latest_news_content">
+										<div class="latest_news_date">06 March, 2018</div>
+										<div class="latest_news_title"><a href="news.html">Roberto Firmino Pledges Loyalty to Brazil Coach Tite Despite Substitute Role in 2-0 Croatia Win</a></div>
+									</div>
+								</div><br/>
+
+								<!-- Latest News -->
+								<div class="latest_news d-flex flex-row align-items-start justify-content-start">
+									<div class="latest_news_image_container">
+										<div class="latest_news_image"><img src="images/dje.jpg" alt=""></div>
+									</div>
+									<div class="latest_news_content">
+										<div class="latest_news_date">06 March, 2018</div>
+										<div class="latest_news_title"><a href="news.html">Djokovic facing career crisis point</a></div>
+									</div>
+								</div>
+
+							</div>
+						</div><br/>
+
+
+
+						<!-- Sidebar - Categories -->
+
+						<div class="sidebar_section">
+							<div class="sidebar_title"><b>Categories</b></div>
+							<div class="sidebar_list">
+								<ul>
+									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">Top Story<span class="ml-auto">4</span></a></li>
+									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">Entertaiment & Culture<span class="ml-auto">5</span></a></li>
+									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">Sport & Scores<span class="ml-auto">4</span></a></li>
+									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">Community<span class="ml-auto">4</span></a></li>
+									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">Security & Privacy<span class="ml-auto">6</span></a></li>
+									<li><a class="d-flex flex-row align-items-start justify-content-start" href="#">Uncategorized<span class="ml-auto">3</span></a></li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Sidebar - Archives -->
+
+						<div class="sidebar_section">
+							<div class="sidebar_title">Archives</div>
+							<div class="sidebar_list">
+								<ul>
+									<li><a href="#">November 2017</a></li>
+									<li><a href="#">December 2017</a></li>
+									<li><a href="#">January 2018</a></li>
+									<li><a href="#">February 2018</a></li>
+									<li><a href="#">March 2018</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Sidebar Quote -->
+
+						
+
+					</div>
+				</div>
+             
+
+			</div>
+		</div>
+	</div>
+
+
+
+	</div></div><br/><br/>
+	
+
+   
+	<!-- Causes -->
+<!--
+	<div class="causes">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container">
+						
+						<div class="section_title"><h2><b>Most Recent</b></h2></div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="causes_slider_container">
+
+						
+						<div class="owl-carousel owl-theme causes_slider">
+
+							
+							<div class="owl-item text-center causes_item">
+								<div class="causes_item_image"><img src="images/aba3.jpg" alt=""></div>
+								<div class="causes_item_text">
+									<p>The Education Ministry is identifying suitable locations for the rebuilding of 80 Tamil national-type schools.</p>
+									<div class="causes_item_title"><a href="#">Monday 11 March, 2018</a></div>
+									<div class="blog_link"><a href="#">Read More</a></div>
+								</div>
+							</div>
+
+							
+							<div class="owl-item text-center causes_item">
+								<div class="causes_item_image"><img src="images/kama.jpg" alt=""></div>
+								
+								<div class="causes_item_text">
+									<p>The Education Ministry is identifying suitable locations for the rebuilding of 80 Tamil national-type schools.</p>
+									<div class="causes_item_title"><a href="#">Monday 11 March, 2018</a></div>
+									<div class="blog_link"><a href="#">Read More</a></div>
+								</div>
+							</div>
+
+							
+							<div class="owl-item text-center causes_item">
+								<div class="causes_item_image"><img src="images/das.jpg" alt=""></div>
+								
+								<div class="causes_item_text">
+									<p>The Education Ministry is identifying suitable locations for the rebuilding of 80 Tamil national-type schools.</p>
+									<div class="causes_item_title"><a href="#">Monday 11 March, 2018</a></div>
+									<div class="blog_link"><a href="#">Read More</a></div>
+								</div>
+							</div>
+
+							
+							<div class="owl-item text-center causes_item">
+								<div class="causes_item_image"><img src="images/ada1.jpg" alt=""></div>
+								
+								<div class="causes_item_text">
+									<p>The Education Ministry is identifying suitable locations for the rebuilding of 80 Tamil national-type schools .</p>
+									<div class="causes_item_title"><a href="#">Monday 11 March, 2018</a></div>
+									<div class="blog_link"><a href="#">Read More</a></div>
+								</div>
+							</div>
+
+						</div>
+
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+-->
+	
+
+	
+
+	
+	<!-- Newsletter -->
+
+	<div class="newsletter">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="newsletter_content d-flex flex-lg-row flex-column align-items-center justify-content-start">
+						<div class="newsletter_title">Subscribe to our newsletter</div>
+						<div class="newsletter_form_container ml-lg-auto">
+							<form action="#" id="newsletter_form" class="newsletter_form">
+								<input type="email" class="newsletter_input" placeholder="Your email" required="required">
+								<button id="newsletter_button" class="newsletter_button">Subscribe</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+
+				<!-- Footer Column -->
+				<div class="col-lg-4 footer_col">
+
+					<!-- Logo -->
+					<div class="logo_container">
+						<div class="logo">
+							<a href="#">
+								<span>Tamil News</span>
+								
+							</a>
+						</div>
+						<div class="logo_subtitle">Accurate & Relieble</div>
+					</div>
+					<div class="footer_social">
+						<ul>
+							<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Footer Column -->
+				<div class="col-lg-4 footer_col">
+					<div class="footer_links">
+						<div class="footer_title">Useful Links</div>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#">News</a></li>
+							<li><a href="sermons.html">About Us</a></li>
+							<li><a href="#">Gallery</a></li>
+							<li><a href="#">Quotes</a></li>
+							<li><a href="#">Event List</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Footer Column -->
+				<div class="col-lg-3 footer_col">
+					<div class="footer_contact">
+						<div class="footer_title">Contact Us</div>
+						<ul>
+							<li><span>Address: </span>1481 Taman jaya metro, CA 93424</li>
+							<li class="footer_contact_phone">
+								<span>Phone: </span>
+								<div>
+									<div> +60 121626261</div>
+									<div> +60 236526326</div>
+								</div>
+							</li>
+							<li><span>Email: </span>info@gmail.com</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Copyright -->
+		<div class="copyright text-center">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Develop  <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Sight Technologies</a>
+</div>
+
+	</footer>
+
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
